@@ -1,0 +1,190 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.modal-login {
+    color: #636363;
+    width: 350px;
+}
+
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-login .modal-header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+
+.modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.modal-login .form-group {
+    position: relative;
+}
+
+.modal-login i {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    font-size: 18px;
+}
+
+.modal-login .form-control:focus {
+    border-color: #00ce81;
+}
+
+.modal-login .form-control,
+.modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+.modal-login .hint-text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.modal-login .btn {
+    background: #00ce81;
+    border: none;
+    line-height: normal;
+}
+
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+    background: #00bf78;
+}
+
+.modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.modal-login .modal-footer a {
+    color: #999;
+}
+</style>
+
+
+
+<style type="text/css">
+body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.table-wrapper {
+    width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+
+.table-title .add-new i {
+    margin-right: 4px;
+}
+
+table.table {
+    table-layout: fixed;
+}
+
+table.table tr th,
+table.table tr td {
+    border-color: #e9e9e9;
+}
+
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+table.table th:last-child {
+    width: 100px;
+}
+
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}
+
+table.table td a.add {
+    color: #27C46B;
+}
+
+table.table td a.edit {
+    color: green;
+}
+
+table.table td a.delete {
+    color: #E34724;
+    margin-left: 35px;
+}
+
+table.table td i {
+    font-size: 19px;
+}
+
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}
+
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+table.table .form-control.error {
+    border-color: #f50000;
+}
+
+table.table td .add {
+    display: none;
+}
